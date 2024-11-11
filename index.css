@@ -1,0 +1,42 @@
+
+body{
+    background-image: url(./images/computer.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: arial, sans-serif;
+}
+a{
+    color:rgb(248, 220, 220);
+}
+.me{
+    padding-left: 200px;
+    color:wheat;
+    font-weight: bold;
+    text-size-adjust: 100px;
+}
+.name{
+    color: rgb(21, 134, 233);
+}
+header{
+    background-color: transparent;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav ul li{
+    margin-left: 20px;
+}
+nav.logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+div.me h3{
+    color: #b67272;
+    background-color: transparent;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s;
+    }
